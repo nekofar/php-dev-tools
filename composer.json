@@ -3,7 +3,8 @@
     "description": "PHP Development Tools",
     "type": "library",
     "require": {
-        "php": "^7.3 || ^8.0"
+        "php": "^7.3 || ^8.0",
+        "phpunit/phpunit": "^9.5"
     },
     "license": "MIT",
     "authors": [
