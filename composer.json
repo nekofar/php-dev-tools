@@ -47,5 +47,9 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/nekofar/php-dev-tools/issues",
+        "source": "https://github.com/nekofar/php-dev-tools"
+    }
 }
