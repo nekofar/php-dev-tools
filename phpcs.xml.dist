@@ -48,6 +48,9 @@
 
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
 
+    <!-- Detect problems with variables -->
+    <rule ref="VariableAnalysis"/>
+
     <!-- Look for unused or unimported symbols -->
     <rule ref="ImportDetection"/>
 
