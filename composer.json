@@ -32,5 +32,8 @@
         "phpstan/phpstan-deprecation-rules": "^0.12.6"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "suggest": {
+        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues"
+    }
 }
