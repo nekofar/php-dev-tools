@@ -26,7 +26,8 @@
         "squizlabs/php_codesniffer": "^3.6",
         "brainbits/phpstan-rules": "^2.0",
         "ergebnis/phpstan-rules": "^0.15.3",
-        "ikvasnica/phpstan-clean-test": "^0.3.1"
+        "ikvasnica/phpstan-clean-test": "^0.3.1",
+        "korbeil/phpstan-generic-rules": "^0.2.4"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
