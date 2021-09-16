@@ -48,6 +48,9 @@
 
     <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
 
+    <!-- Look for unused or unimported symbols -->
+    <rule ref="ImportDetection"/>
+
     <!-- Run against the PHPCompatibility ruleset -->
     <rule ref="PHPCompatibility"/>
 
