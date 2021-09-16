@@ -31,6 +31,7 @@
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
+        "pestphp/pest-plugin-global-assertions": "The Pest Global Assertions plugin",
         "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
         "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
