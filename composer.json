@@ -11,7 +11,6 @@
     ],
     "require": {
         "php": "^7.3 || ^8.0",
-        "brainbits/phpstan-rules": "^2.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
         "ergebnis/phpstan-rules": "^0.15.3",
         "escapestudios/symfony2-coding-standard": "^3.12",
@@ -38,7 +37,8 @@
     },
     "suggest": {
         "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
-        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues."
+        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues.",
+        "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan."
     },
     "minimum-stability": "dev",
     "prefer-stable": true
