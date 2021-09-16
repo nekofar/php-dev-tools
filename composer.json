@@ -18,7 +18,6 @@
         "phpcompatibility/php-compatibility": "^9.3",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^0.12.99",
-        "phpstan/phpstan-beberlei-assert": "^0.12.6",
         "phpstan/phpstan-deprecation-rules": "^0.12.6",
         "phpstan/phpstan-phpunit": "^0.12.22",
         "phpstan/phpstan-strict-rules": "^0.12.11",
@@ -38,7 +37,8 @@
         "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues.",
         "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
-        "ergebnis/phpstan-rules": "Provides additional rules for PHPStan."
+        "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
+        "phpstan/phpstan-beberlei-assert": "Detect the type of object after the assertions validation."
     },
     "minimum-stability": "dev",
     "prefer-stable": true
