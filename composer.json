@@ -11,20 +11,14 @@
     ],
     "require": {
         "php": "^7.3 || ^8.0",
-        "brainbits/phpstan-rules": "^2.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-        "ergebnis/phpstan-rules": "^0.15.3",
         "escapestudios/symfony2-coding-standard": "^3.12",
-        "ikvasnica/phpstan-clean-test": "^0.3.1",
-        "korbeil/phpstan-generic-rules": "^0.2.4",
+        "friendsofphp/php-cs-fixer": "^3.1",
         "pestphp/pest": "^1.18",
         "phpcompatibility/php-compatibility": "^9.3",
+        "phpmd/phpmd": "^2.10",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^0.12.99",
-        "phpstan/phpstan-beberlei-assert": "^0.12.6",
-        "phpstan/phpstan-deprecation-rules": "^0.12.6",
-        "phpstan/phpstan-phpunit": "^0.12.22",
-        "phpstan/phpstan-strict-rules": "^0.12.11",
         "phpunit/phpunit": "^9.5",
         "psalm/plugin-phpunit": "^0.16.1",
         "roave/security-advisories": "dev-latest",
@@ -33,12 +27,28 @@
         "slevomat/coding-standard": "^7.0",
         "squizlabs/php_codesniffer": "^3.6",
         "symfony/var-dumper": "^5.3",
-        "thecodingmachine/phpstan-strict-rules": "^0.12.1",
         "vimeo/psalm": "^4.10"
     },
     "suggest": {
+        "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
-        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues."
+        "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
+        "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
+        "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
+        "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
+        "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
+        "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
+        "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
+        "thecodingmachine/phpstan-strict-rules": "They are more strict than the default PHPStan rules and some may be controversial."
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
