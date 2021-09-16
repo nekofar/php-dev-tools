@@ -35,7 +35,8 @@
         "thecodingmachine/phpstan-strict-rules": "^0.12.1"
     },
     "suggest": {
-        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues"
+        "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
+        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues."
     },
     "minimum-stability": "dev",
     "prefer-stable": true
