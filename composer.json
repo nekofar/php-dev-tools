@@ -32,7 +32,8 @@
         "slevomat/coding-standard": "^7.0",
         "squizlabs/php_codesniffer": "^3.6",
         "symfony/var-dumper": "^5.3",
-        "thecodingmachine/phpstan-strict-rules": "^0.12.1"
+        "thecodingmachine/phpstan-strict-rules": "^0.12.1",
+        "vimeo/psalm": "^4.10"
     },
     "suggest": {
         "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
