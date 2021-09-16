@@ -25,11 +25,11 @@
         "slevomat/coding-standard": "^7.0",
         "squizlabs/php_codesniffer": "^3.6",
         "symfony/var-dumper": "^5.3",
-        "vimeo/psalm": "^4.10"
+        "vimeo/psalm": "^4.10",
+        "friendsofphp/php-cs-fixer": "^3.1"
     },
     "suggest": {
         "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
-        "friendsofphp/php-cs-fixer": "A tool to automatically fix PHP Coding Standards issues.",
         "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
