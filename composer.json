@@ -1,7 +1,7 @@
 {
     "name": "nekofar/dev-tools",
     "type": "library",
-    "description": "PHP Development Tools",
+    "description": "Some of useful development requirements for PHP projects.",
     "license": "MIT",
     "authors": [
         {
