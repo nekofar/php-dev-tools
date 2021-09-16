@@ -19,7 +19,6 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^0.12.99",
         "phpstan/phpstan-phpunit": "^0.12.22",
-        "phpstan/phpstan-strict-rules": "^0.12.11",
         "phpunit/phpunit": "^9.5",
         "psalm/plugin-phpunit": "^0.16.1",
         "roave/security-advisories": "dev-latest",
@@ -38,7 +37,8 @@
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
         "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
-        "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds"
+        "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
+        "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
