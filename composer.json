@@ -29,7 +29,8 @@
         "ikvasnica/phpstan-clean-test": "^0.3.1",
         "korbeil/phpstan-generic-rules": "^0.2.4",
         "phpstan/phpstan-beberlei-assert": "^0.12.6",
-        "phpstan/phpstan-deprecation-rules": "^0.12.6"
+        "phpstan/phpstan-deprecation-rules": "^0.12.6",
+        "roave/security-advisories": "dev-latest"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
