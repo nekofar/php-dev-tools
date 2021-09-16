@@ -14,7 +14,8 @@
         "sirbrillig/phpcs-import-detection": "^1.3",
         "sirbrillig/phpcs-variable-analysis": "^2.11",
         "phpstan/phpstan": "^0.12.99",
-        "phpstan/phpstan-phpunit": "^0.12.22"
+        "phpstan/phpstan-phpunit": "^0.12.22",
+        "phpstan/extension-installer": "^1.1"
     },
     "license": "MIT",
     "authors": [
