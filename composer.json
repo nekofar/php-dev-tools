@@ -27,7 +27,8 @@
         "brainbits/phpstan-rules": "^2.0",
         "ergebnis/phpstan-rules": "^0.15.3",
         "ikvasnica/phpstan-clean-test": "^0.3.1",
-        "korbeil/phpstan-generic-rules": "^0.2.4"
+        "korbeil/phpstan-generic-rules": "^0.2.4",
+        "phpstan/phpstan-beberlei-assert": "^0.12.6"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
