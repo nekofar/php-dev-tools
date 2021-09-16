@@ -1,0 +1,38 @@
+# PHP Development Tools
+
+[![Packagist Version][icon-packagist]][link-packagist]
+[![PHP from Packagist][icon-php-version]][link-packagist]
+[![License][icon-license]][link-license]
+[![Twitter: nekofar][icon-twitter]][link-twitter]
+<!-- [![Tests Status][icon-workflow]][link-workflow] -->
+<!-- [![Coverage Status][icon-coverage]][link-coverage] -->
+
+> Some of useful development requirements for PHP projects.
+
+## Installation
+
+To get started, install the package using composer:
+
+```bash
+composer require nekofar/dev-tools --dev
+```
+
+Requires PHP 7.3 or newer.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+---
+[icon-packagist]: https://img.shields.io/packagist/v/nekofar/dev-tools.svg
+[icon-php-version]: https://img.shields.io/packagist/php-v/nekofar/dev-tools.svg
+[icon-twitter]: https://img.shields.io/twitter/follow/nekofar.svg?style=flat
+[icon-coverage]: https://codecov.io/gh/nekofar/dev-tools/graph/badge.svg
+[icon-license]: https://img.shields.io/github/license/nekofar/dev-tools.svg
+[icon-workflow]: https://img.shields.io/github/workflow/status/nekofar/dev-tools/Tests
+
+[link-packagist]: https://packagist.org/packages/nekofar/dev-tools
+[link-twitter]: https://twitter.com/nekofar
+[link-coverage]: https://codecov.io/gh/nekofar/dev-tools
+[link-license]: https://github.com/nekofar/dev-tools/blob/master/LICENSE.md
+[link-workflow]: https://github.com/nekofar/dev-tools/actions/workflows/tests.yml
