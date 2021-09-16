@@ -41,5 +41,14 @@
         "thecodingmachine/phpstan-strict-rules": "They are more strict than the default PHPStan rules and some may be controversial."
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
 }
