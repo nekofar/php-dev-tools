@@ -30,19 +30,17 @@
         "vimeo/psalm": "^4.10"
     },
     "suggest": {
-        "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
         "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan.",
-        "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
+        "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
+        "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
+        "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
         "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
-        "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
         "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
-        "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
+        "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
         "thecodingmachine/phpstan-strict-rules": "They are more strict than the default PHPStan rules and some may be controversial."
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
@@ -51,5 +49,7 @@
         "branch-alias": {
             "dev-master": "1.x-dev"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
