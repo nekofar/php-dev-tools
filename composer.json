@@ -13,12 +13,10 @@
         "php": "^7.3 || ^8.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
         "escapestudios/symfony2-coding-standard": "^3.12",
-        "korbeil/phpstan-generic-rules": "^0.2.4",
         "pestphp/pest": "^1.18",
         "phpcompatibility/php-compatibility": "^9.3",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^0.12.99",
-        "phpstan/phpstan-phpunit": "^0.12.22",
         "phpunit/phpunit": "^9.5",
         "psalm/plugin-phpunit": "^0.16.1",
         "roave/security-advisories": "dev-latest",
@@ -38,7 +36,9 @@
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
         "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
-        "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan"
+        "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
+        "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
+        "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
