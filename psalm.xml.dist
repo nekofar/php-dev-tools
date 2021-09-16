@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psalm
+    errorLevel="1"
+    resolveFromConfigFile="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://getpsalm.org/schema/config"
+    xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+>
+    <projectFiles>
+        <!-- <file name="rector.php" /> -->
+        <!-- <directory name="bin" /> -->
+        <!-- <directory name="public" /> -->
+        <directory name="src" />
+        <!-- <directory name="tests" /> -->
+        <ignoreFiles>
+            <!-- <directory name="stubs" /> -->
+            <directory name="vendor" />
+        </ignoreFiles>
+    </projectFiles>
+
+    <plugins>
+        <pluginClass class="Psalm\PhpUnitPlugin\Plugin"/>
+    </plugins>
+
+    <issueHandlers>
+        <!-- <MissingConstructor>
+            <errorLevel type="suppress">
+                <directory name="tests"/>
+            </errorLevel>
+        </MissingConstructor> -->
+
+        <MissingThrowsDocblock errorLevel="info"/>
+    </issueHandlers>
+
+    <!-- <stubs>
+        <file name="stubs/foo.phpstub" />
+    </stubs> -->
+</psalm>
