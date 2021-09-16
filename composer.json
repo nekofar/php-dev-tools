@@ -25,7 +25,6 @@
         "slevomat/coding-standard": "^7.0",
         "squizlabs/php_codesniffer": "^3.6",
         "symfony/var-dumper": "^5.3",
-        "thecodingmachine/phpstan-strict-rules": "^0.12.1",
         "vimeo/psalm": "^4.10"
     },
     "suggest": {
@@ -38,7 +37,8 @@
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
         "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
         "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
-        "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan"
+        "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
+        "thecodingmachine/phpstan-strict-rules": "They are more strict than the default PHPStan rules and some may be controversial."
     },
     "minimum-stability": "dev",
     "prefer-stable": true
