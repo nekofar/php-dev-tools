@@ -10,7 +10,8 @@
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
         "escapestudios/symfony2-coding-standard": "^3.12",
         "phpcompatibility/php-compatibility": "^9.3",
-        "slevomat/coding-standard": "^7.0"
+        "slevomat/coding-standard": "^7.0",
+        "sirbrillig/phpcs-import-detection": "^1.3"
     },
     "license": "MIT",
     "authors": [
