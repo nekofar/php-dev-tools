@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "php": "^7.3 || ^8.0",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "pestphp/pest": "^1.18"
     },
     "license": "MIT",
     "authors": [
