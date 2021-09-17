@@ -13,7 +13,7 @@
         "php": "^7.3 || ^8.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
         "friendsofphp/php-cs-fixer": "^3.1",
-        "nekofar/coding-standard": "^1.0",
+        "nekofar/coding-standard": "^1.2",
         "pestphp/pest": "^1.18",
         "phpmd/phpmd": "^2.10",
         "phpstan/extension-installer": "^1.1",
@@ -36,6 +36,7 @@
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
         "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
         "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
+        "symplify/phpstan-rules": "Set of rules for PHPStan used by Symplify projects.",
         "thecodingmachine/phpstan-safe-rule": "A PHPStan rule to be used with the thecodingmachine/safe package",
         "thecodingmachine/phpstan-strict-rules": "A set of additional rules for PHPStan based on best practices followed at TheCodingMachine",
         "thecodingmachine/safe": "All PHP functions, rewritten to throw exceptions instead of returning false"
