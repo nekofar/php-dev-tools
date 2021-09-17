@@ -36,7 +36,9 @@
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
         "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
         "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
-        "thecodingmachine/phpstan-strict-rules": "They are more strict than the default PHPStan rules and some may be controversial."
+        "thecodingmachine/phpstan-safe-rule": "A PHPStan rule to be used with the thecodingmachine/safe package",
+        "thecodingmachine/phpstan-strict-rules": "A set of additional rules for PHPStan based on best practices followed at TheCodingMachine",
+        "thecodingmachine/safe": "All PHP functions, rewritten to throw exceptions instead of returning false"
     },
     "config": {
         "preferred-install": "dist",
