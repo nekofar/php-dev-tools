@@ -12,7 +12,8 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-        "friendsofphp/php-cs-fixer": "^3.1",
+        "friendsofphp/php-cs-fixer": "^2.19",
+        "infection/infection": "^0.18.2",
         "nekofar/coding-standard": "^1.2",
         "pestphp/pest": "^1.18",
         "phpmd/phpmd": "^2.10",
@@ -53,6 +54,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        "infection": "./vendor/bin/infection",
         "lint": "@scan",
         "pest": "./vendor/bin/pest",
         "phpcbf": "./vendor/bin/phpcbf",
@@ -71,6 +73,7 @@
         ]
     },
     "scripts-descriptions": {
+        "infection": "Runs Infection tests",
         "pest": "Runs Pest tests",
         "phpcbf": "Runs PHP_CodeSniffer fixes",
         "phpcs": "Runs PHP_CodeSniffer tests",
