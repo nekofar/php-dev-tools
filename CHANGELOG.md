@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.3] - 2021-09-21
+
+### Miscellaneous Tasks
+
+- Add `behat/behat` to the suggests
+- Add `codeception/codeception` to the suggests
+- Add `phpspec/phpspec` to the suggests
+- Add `phing/phing` to the suggests
+
 ## [1.2.2] - 2021-09-21
 
 ### Miscellaneous Tasks

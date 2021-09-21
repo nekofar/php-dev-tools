@@ -27,12 +27,16 @@
         "vimeo/psalm": "^4.10"
     },
     "suggest": {
+        "behat/behat": "Behat is a test framework for behavior-driven development.",
         "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan.",
+        "codeception/codeception": "Codeception collects and shares best practices and solutions for testing PHP web applications. ",
         "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
         "pestphp/pest-plugin-global-assertions": "The Pest Global Assertions plugin",
+        "phing/phing": "Phing is a PHP project build system or build tool based on Apache Ant.",
+        "phpspec/phpspec": "A php toolset to drive emergent design by specification.",
         "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
         "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
