@@ -36,6 +36,7 @@ conventional_commits = true
 commit_parsers = [
     { message = "^feat", group = "Features"},
     { message = "^fix", group = "Bug Fixes"},
+    { message = "^docs\\(changelog\\): ", skip = true},
     { message = "^doc", group = "Documentation"},
     { message = "^perf", group = "Performance"},
     { message = "^refactor", group = "Refactor"},
