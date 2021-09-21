@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.2] - 2021-09-21
+
+### Documentation
+
+- Update the changelog file
+
+### Miscellaneous Tasks
+
+- Update `pestphp/pest` from ^1.18 to ^1.19
+
 ## [1.2.1] - 2021-09-21
 
 ### Miscellaneous Tasks
