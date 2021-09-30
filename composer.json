@@ -35,6 +35,7 @@
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
+        "nunomaduro/phpinsights": "Instant PHP quality checks from your console",
         "pestphp/pest-plugin-global-assertions": "The Pest Global Assertions plugin",
         "phing/phing": "Phing is a PHP project build system or build tool based on Apache Ant.",
         "phpdocumentor/phpdocumentor": "Analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.",
