@@ -33,6 +33,7 @@
         "codeception/codeception": "Codeception collects and shares best practices and solutions for testing PHP web applications. ",
         "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
+        "fakerphp/faker": "Faker is a PHP library that generates fake data for you.",
         "icanhazstring/composer-unused": "Show unused composer dependencies by scanning your code",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
