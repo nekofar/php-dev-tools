@@ -1,6 +1,40 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.8] - 2021-10-01
+
+### Miscellaneous Tasks
+
+- Change bootstrap file path on `phpunit` configs
+- Update some switchs over  `phpunit` configs
+
+## [1.2.7] - 2021-09-30
+
+### Miscellaneous Tasks
+
+- Add `thecodingmachine/safe:^1.3` package
+- Add `nunomaduro/phpinsights` to the suggests
+- Add `icanhazstring/composer-unused` to the suggests
+
+## [1.2.6] - 2021-09-26
+
+### Miscellaneous Tasks
+
+- Ignore extra files from export
+
+## [1.2.5] - 2021-09-22
+
+### Miscellaneous Tasks
+
+- Add `phpdocumentor/phpdocumentor` to the suggests
+
+## [1.2.4] - 2021-09-22
+
+### Miscellaneous Tasks
+
+- Cleanup scripts on composer configs
+- Add `rector/rector` to suggestions
+
 ## [1.2.3] - 2021-09-21
 
 ### Miscellaneous Tasks
