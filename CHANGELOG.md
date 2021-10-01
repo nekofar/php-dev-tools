@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2021-10-01
+
+### Miscellaneous Tasks
+
+- Add a sample configuration file for `infection`
+
+## [1.2.9] - 2021-10-01
+
+### Miscellaneous Tasks
+
+- Add `fakerphp/faker` to the suggests
+
 ## [1.2.8] - 2021-10-01
 
 ### Miscellaneous Tasks
