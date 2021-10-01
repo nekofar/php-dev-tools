@@ -1,15 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
-         bootstrap="tests/bootstrap.php"
-         colors="true"
-         testdox="false">
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+  beStrictAboutOutputDuringTests="true"
+  bootstrap="vendor/autoload.php"
+  colors="true"
+  executionOrder="random"
+  failOnRisky="true"
+  failOnWarning="true"
+  processIsolation="true"
+  stopOnFailure="true"
+  testdox="false"
+  verbose="true"
+>
     <coverage processUncoveredFiles="true">
         <include>
             <directory suffix=".php">src</directory>
         </include>
         <report>
-            <clover outputFile="clover.xml"/>
+            <clover outputFile="clover.xml" />
         </report>
     </coverage>
     <testsuites>
@@ -17,5 +26,5 @@
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
-    <logging/>
+    <logging />
 </phpunit>
