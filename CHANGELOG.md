@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.1] - 2021-10-06
+
+### Miscellaneous Tasks
+
+- Update `pestphp/pest` from ^1.19 to ^1.20
+
 ## [1.3.0] - 2021-10-01
 
 ### Miscellaneous Tasks
