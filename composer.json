@@ -15,7 +15,7 @@
         "friendsofphp/php-cs-fixer": "^2.19",
         "infection/infection": "^0.18.2",
         "nekofar/coding-standard": "^1.2",
-        "pestphp/pest": "^1.19",
+        "pestphp/pest": "^1.20",
         "phpmd/phpmd": "^2.10",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^0.12.99",
