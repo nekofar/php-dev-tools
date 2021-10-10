@@ -17,6 +17,8 @@
         "infection/infection": "^0.18.2",
         "nekofar/coding-standard": "^1.2",
         "pestphp/pest": "^1.20",
+        "php-parallel-lint/php-console-highlighter": "^0.5.0",
+        "php-parallel-lint/php-parallel-lint": "^1.3",
         "phpmd/phpmd": "^2.10",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^0.12.99",
@@ -69,12 +71,13 @@
         "pest": "pest",
         "phpcbf": "phpcbf",
         "phpcs": "phpcs",
+        "phplint": "php-parallel-lint",
         "phpmd": "phpmd src ansi phpmd.xml.dist",
         "phpstan": "phpstan analyse --no-progress --ansi --memory-limit 256M",
         "phpunit": "phpunit",
         "psalm": "psalm --no-progress --stats --show-info=true --show-snippet",
         "scan": [
-            "@phpcs",
+            "@phplint",
             "@phpstan"
         ],
         "test": [
