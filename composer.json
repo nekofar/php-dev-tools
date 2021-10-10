@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": "^7.3 || ^8.0",
+        "composer/installers": "^2.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
         "friendsofphp/php-cs-fixer": "^2.19",
         "infection/infection": "^0.18.2",
