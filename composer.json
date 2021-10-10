@@ -71,12 +71,13 @@
         "pest": "pest",
         "phpcbf": "phpcbf",
         "phpcs": "phpcs",
+        "phplint": "php-parallel-lint",
         "phpmd": "phpmd src ansi phpmd.xml.dist",
         "phpstan": "phpstan analyse --no-progress --ansi --memory-limit 256M",
         "phpunit": "phpunit",
         "psalm": "psalm --no-progress --stats --show-info=true --show-snippet",
         "scan": [
-            "@phpcs",
+            "@phplint",
             "@phpstan"
         ],
         "test": [
