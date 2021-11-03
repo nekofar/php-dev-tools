@@ -1,6 +1,28 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.4] - 2021-11-03
+
+### Miscellaneous Tasks
+
+- Bump actions/checkout from 2.3.4 to 2.3.5
+- Update phpstan/phpstan requirement || ^1.0.0
+- Bump actions/checkout from 2.3.5 to 2.4.0
+
+## [1.3.3] - 2021-10-10
+
+### Miscellaneous Tasks
+
+- Add `php-parallel-lint/php-parallel-lint:^1.3` to dependencies
+- Add `php-parallel-lint/php-console-highlighter:^0.5.0` to dependencies
+- Add new script for php parallel lint
+
+## [1.3.2] - 2021-10-10
+
+### Miscellaneous Tasks
+
+- Add `composer/installers:^2.0` to dependencies
+
 ## [1.3.1] - 2021-10-06
 
 ### Miscellaneous Tasks
