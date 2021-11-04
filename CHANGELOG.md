@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.4.0] - 2021-11-04
+
+### Miscellaneous Tasks
+
+- Upgrade `infection/infection` package from ^0.18.2 to ^0.25.3
+- Upgrade `phpstan/phpstan` package from ^0.12.99 to ^1.0
+- Upgrade `vimeo/psalm` package from ^4.10 to ^4.11
+- Upgrade `friendsofphp/php-cs-fixer` package from ^2.19 to ^3.2
+
 ## [1.3.4] - 2021-11-03
 
 ### Miscellaneous Tasks
