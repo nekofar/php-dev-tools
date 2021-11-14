@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5.0] - 2021-11-14
+
+### Miscellaneous Tasks
+
+- Add support for `symfony/var-dumper` version ^4.0 || ^5.0 || ^6.0
+- Add `humbug/box` to the suggested packages
+
 ## [1.4.0] - 2021-11-04
 
 ### Miscellaneous Tasks
