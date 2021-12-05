@@ -38,6 +38,7 @@
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
         "fakerphp/faker": "Faker is a PHP library that generates fake data for you.",
         "humbug/box": "Fast, zero config application bundler with PHARs.",
+        "madewithlove/htaccess-cli": "CLI interface for the best htaccess tester in the world.",
         "icanhazstring/composer-unused": "Show unused composer dependencies by scanning your code",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
