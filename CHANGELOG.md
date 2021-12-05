@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5.1] - 2021-12-05
+
+### Miscellaneous Tasks
+
+- Bump actions/cache from 2.1.6 to 2.1.7
+- Add `madewithlove/htaccess-cli` to the suggests
+
 ## [1.5.0] - 2021-11-14
 
 ### Miscellaneous Tasks
