@@ -47,6 +47,7 @@
         "phing/phing": "Phing is a PHP project build system or build tool based on Apache Ant.",
         "phpdocumentor/phpdocumentor": "Analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.",
         "phpspec/phpspec": "A php toolset to drive emergent design by specification.",
+        "phpspec/prophecy": "Highly opinionated mocking framework for PHP",
         "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
         "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
         "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
