@@ -1,6 +1,46 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2022-03-26
+
+### Bug Fixes
+
+- Drop support for php version 7.x and earlier
+
+### Miscellaneous Tasks
+
+- Update `phpcs` config file description
+- Update nekofar/coding-standard requirement || ^2.0
+- Update `config.allow-plugins` on the `composer` configs
+- Bump `composer/installers` from ^2.0 to ^2.1
+- Bump `dealerdirect/phpcodesniffer-composer-installer` from ^0.7.1 to ^0.7.2
+- Bump `friendsofphp/php-cs-fixer` from ^3.2 to ^3.8
+- Bump `infection/infection` from ^0.25.3 || ^0.26.0 to ^0.26.6
+- Bump `nekofar/coding-standard` from ^1.2 || ^2.0 to ^2.0
+- Bump `pestphp/pest` from ^1.20 to ^1.21
+- Bump `php-parallel-lint/php-console-highlighter` to v1.0.0
+- Bump `phpmd/phpmd` to 2.12.0
+- Bump `phpstan/phpstan` to 1.5.0
+- Bump `phpunit/phpunit` to 9.5.19
+- Bump `symfony/var-dumper` to v6.0.6
+- Bump `vimeo/psalm` to 4.22.0
+
+## [1.5.2] - 2022-03-04
+
+### Documentation
+
+- Improve the dependabot configuration file
+
+### Miscellaneous Tasks
+
+- Add `phpspec/prophecy` to the suggests
+- Update github funding configs
+- Solve github funding broken link issue
+- Bump orhun/git-cliff-action from 1.1.5 to 1.1.6
+- Update infection/infection requirement || ^0.26.0
+- Update php-parallel-lint/php-console-highlighter requirement || ^1.0.0
+- Bump actions/checkout from 2.4.0 to 3 (#9)
+
 ## [1.5.1] - 2021-12-05
 
 ### Miscellaneous Tasks
