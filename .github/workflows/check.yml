@@ -1,0 +1,43 @@
+name: Check
+
+on:
+  # Trigger the workflow on pushes to only the 'master', 'support' and 'release' branches
+  push:
+    branches:
+      - master
+      - support/*
+      - release/*
+  # Trigger the workflow on any pull request
+  pull_request:
+    types: [ opened, reopened ]
+  # Trigger the workflow on manual dispatch
+  workflow_dispatch:
+
+jobs:
+  check:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Check out current repository
+      - name: Fetch Sources
+        uses: actions/checkout@v3.0.0
+
+      - name: Validate composer.json and composer.lock
+        run: composer validate --strict
+
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: |
+          echo "::set-output name=dir::$(composer config cache-files-dir)"
+      - uses: actions/cache@v3.0.0
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-progress
+
