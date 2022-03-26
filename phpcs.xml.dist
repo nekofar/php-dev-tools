@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="Custom ruleset">
-    <description>RealtyBloc API</description>
+    <description>Customized rules</description>
 
     <!-- What to scan -->
     <file>.</file>
