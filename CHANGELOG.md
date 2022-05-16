@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2022-05-16
+
+### Miscellaneous Tasks
+
+- Update thecodingmachine/safe requirement || ^2.0
+- Add `dominikb/composer-license-checker:^2.4` to requirements
+
 ## [2.0.1] - 2022-04-11
 
 ### Documentation
