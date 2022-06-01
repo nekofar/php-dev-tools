@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1.1] - 2022-06-01
+
+### Bug Fixes
+
+- Solve an issue related to `symfony/var-dumper` version
+
 ## [2.1.0] - 2022-05-16
 
 ### Miscellaneous Tasks
