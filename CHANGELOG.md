@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1.2] - 2022-12-13
+
+### Miscellaneous Tasks
+
+- Update psalm/plugin-phpunit requirement || ^0.17.0
+- Update psalm/plugin-phpunit requirement from ^0.16.1 || ^0.17.0 to ^0.16.1 || ^0.17.0 || ^0.18.0
+- Update vimeo/psalm requirement from ^4.22 to ^4.22 || ^5.0
+
 ## [2.1.1] - 2022-06-01
 
 ### Bug Fixes
