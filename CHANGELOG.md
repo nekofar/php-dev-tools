@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1.4] - 2023-01-05
+
+### Miscellaneous Tasks
+
+- Update dealerdirect/phpcodesniffer-composer-installer requirement || ^1.0.0
+
 ## [2.1.2] - 2022-12-13
 
 ### Miscellaneous Tasks
