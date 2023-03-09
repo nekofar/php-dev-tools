@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1.5] - 2023-03-09
+
+### Documentation
+
+- Update workflow badge url over readme file
+- Update twitter badge due to depreciation
+
 ## [2.1.4] - 2023-01-05
 
 ### Miscellaneous Tasks
