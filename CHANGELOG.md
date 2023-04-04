@@ -1,22 +1,59 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
+
+## [2.1.6] - 2023-04-04
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.3.0 to 3.3.1 
+- Bump actions/checkout from 3.3.0 to 3.5.0 
 
 ## [2.1.5] - 2023-03-09
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Update workflow badge url over readme file
 - Update twitter badge due to depreciation
 
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.1 to 2.0.3
+- Bump actions/cache from 3.2.2 to 3.2.3
+- Bump orhun/git-cliff-action from 2.0.3 to 2.0.5
+- Bump actions/cache from 3.2.3 to 3.3.0
+
 ## [2.1.4] - 2023-01-05
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.2.1 to 3.2.2
+- Bump actions/checkout from 3.2.0 to 3.3.0
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Update dealerdirect/phpcodesniffer-composer-installer requirement || ^1.0.0
 
+## [2.1.3] - 2022-12-26
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 1.2.0 to 2.0.1
+- Bump actions/cache from 3.0.11 to 3.2.1
+
 ## [2.1.2] - 2022-12-13
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.0.3 to 3.0.4
+- Bump actions/cache from 3.0.4 to 3.0.5
+- Bump actions/checkout from 3.0.2 to 3.1.0
+- Bump actions/cache from 3.0.5 to 3.0.11
+- Bump softprops/action-gh-release from 0.1.14 to 0.1.15
+- Bump orhun/git-cliff-action from 1.1.7 to 1.2.0
+- Bump actions/checkout from 3.1.0 to 3.2.0
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Update psalm/plugin-phpunit requirement || ^0.17.0
 - Update psalm/plugin-phpunit requirement from ^0.16.1 || ^0.17.0 to ^0.16.1 || ^0.17.0 || ^0.18.0
@@ -24,30 +61,50 @@ All notable changes to this project will be documented in this file.
 
 ## [2.1.1] - 2022-06-01
 
-### Bug Fixes
+### <!-- 02 -->Bug Fixes
 
 - Solve an issue related to `symfony/var-dumper` version
 
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.0.2 to 3.0.3
+
 ## [2.1.0] - 2022-05-16
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.0.0 to 3.0.1
+- Bump actions/checkout from 3.0.1 to 3.0.2
+- Bump orhun/git-cliff-action from 1.1.6 to 1.1.7
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Update thecodingmachine/safe requirement || ^2.0
 - Add `dominikb/composer-license-checker:^2.4` to requirements
 
 ## [2.0.1] - 2022-04-11
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Update required version over readme file
 
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/cache from 3.0.0 to 3.0.1
+- Bump actions/cache from 3.0.1 to 3.0.2
+
 ## [2.0.0] - 2022-03-26
 
-### Bug Fixes
+### <!-- 02 -->Bug Fixes
 
-- Drop support for php version 7.x and earlier
+- [**breaking**] Drop support for php version 7.x and earlier
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Bump `actions/cache` from 2.x.x to 3.0.0
+- Update `php` workflow triggers and rename it to `check`
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Update `phpcs` config file description
 - Update nekofar/coding-standard requirement || ^2.0
@@ -67,11 +124,16 @@ All notable changes to this project will be documented in this file.
 
 ## [1.5.2] - 2022-03-04
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Improve the dependabot configuration file
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Update `actions/checkout` from v2.x.x to v3.0.0
+- Update `dependabot` prefixes on configuration
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `phpspec/prophecy` to the suggests
 - Update github funding configs
@@ -79,25 +141,31 @@ All notable changes to this project will be documented in this file.
 - Bump orhun/git-cliff-action from 1.1.5 to 1.1.6
 - Update infection/infection requirement || ^0.26.0
 - Update php-parallel-lint/php-console-highlighter requirement || ^1.0.0
-- Bump actions/checkout from 2.4.0 to 3 (#9)
+- Bump actions/checkout from 2.4.0 to 3 
 
 ## [1.5.1] - 2021-12-05
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Mark pre-releases tags on release workflow
+- Improve and cleanup release bodies
+- Add cache action for caching composer packages
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Bump actions/cache from 2.1.6 to 2.1.7
 - Add `madewithlove/htaccess-cli` to the suggests
 
 ## [1.5.0] - 2021-11-14
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add support for `symfony/var-dumper` version ^4.0 || ^5.0 || ^6.0
 - Add `humbug/box` to the suggested packages
 
 ## [1.4.0] - 2021-11-04
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Upgrade `infection/infection` package from ^0.18.2 to ^0.25.3
 - Upgrade `phpstan/phpstan` package from ^0.12.99 to ^1.0
@@ -106,7 +174,11 @@ All notable changes to this project will be documented in this file.
 
 ## [1.3.4] - 2021-11-03
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Remove headlines of changelog from release notes
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Bump actions/checkout from 2.3.4 to 2.3.5
 - Update phpstan/phpstan requirement || ^1.0.0
@@ -114,7 +186,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.3.3] - 2021-10-10
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `php-parallel-lint/php-parallel-lint:^1.3` to dependencies
 - Add `php-parallel-lint/php-console-highlighter:^0.5.0` to dependencies
@@ -122,38 +194,42 @@ All notable changes to this project will be documented in this file.
 
 ## [1.3.2] - 2021-10-10
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `composer/installers:^2.0` to dependencies
 
 ## [1.3.1] - 2021-10-06
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Change workflow actions versions to fixed versions
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Update `pestphp/pest` from ^1.19 to ^1.20
 
 ## [1.3.0] - 2021-10-01
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add a sample configuration file for `infection`
 
 ## [1.2.9] - 2021-10-01
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `fakerphp/faker` to the suggests
 
 ## [1.2.8] - 2021-10-01
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Change bootstrap file path on `phpunit` configs
 - Update some switchs over  `phpunit` configs
 
 ## [1.2.7] - 2021-09-30
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `thecodingmachine/safe:^1.3` package
 - Add `nunomaduro/phpinsights` to the suggests
@@ -161,26 +237,26 @@ All notable changes to this project will be documented in this file.
 
 ## [1.2.6] - 2021-09-26
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Ignore extra files from export
 
 ## [1.2.5] - 2021-09-22
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `phpdocumentor/phpdocumentor` to the suggests
 
 ## [1.2.4] - 2021-09-22
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Cleanup scripts on composer configs
 - Add `rector/rector` to suggestions
 
 ## [1.2.3] - 2021-09-21
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `behat/behat` to the suggests
 - Add `codeception/codeception` to the suggests
@@ -189,110 +265,122 @@ All notable changes to this project will be documented in this file.
 
 ## [1.2.2] - 2021-09-21
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Update `pestphp/pest` from ^1.18 to ^1.19
 - Exclude changelog commits from changelog
 
 ## [1.2.1] - 2021-09-21
 
-### Miscellaneous Tasks
+### <!-- 07 -->Continuous Integrations
+
+- Add new workflow for create releases
+
+### <!-- 08 -->Miscellaneous Tasks
 
 - Replace `standard-version` by `git-cliff` for generate changelog
 
 ## [1.2.0] - 2021-09-19
 
-### Features
+### <!-- 01 -->Features
 
 - Add infection to check faulty tests
 
+### <!-- 08 -->Miscellaneous Tasks
+
+- 1.2.0
+
 ## [1.1.2] - 2021-09-19
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add sample config file for phpmd
 - Improve phpmd script
 
 ## [1.1.1] - 2021-09-19
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add sample config file for psalm
 - Add default scripts for composer
 
 ## [1.1.0] - 2021-09-17
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `symplify/phpstan-rules` to suggestions
 - Update `nekofar/coding-standard` from ^1.0 to ^1.2
 
 ## [1.0.8] - 2021-09-17
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Change `phpunit/phpunit` to ^8.0 || ^9.0
 
 ## [1.0.7] - 2021-09-17
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Add the workflow status badge
 - Add target branch to dependabot configuration file
 - Add commit message scop to dependabot configuration file
 - Improve the dependabot configuration file
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `thecodingmachine/phpstan-safe-rule` to the suggests
 - Add `thecodingmachine/safe` to the suggests
 
 ## [1.0.6] - 2021-09-16
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Add downloads badge linked to packagist
 
+### <!-- 07 -->Continuous Integrations
+
+- Add default php setup workflow
+
 ## [1.0.5] - 2021-09-16
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Add sample psalm configuration
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add `pestphp/pest-plugin-global-assertions` to the suggests
 
 ## [1.0.4] - 2021-09-16
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Change links and icons paths and urls
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add source and issues urls on composer config
 
 ## [1.0.3] - 2021-09-16
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Replace all rules on phpcs config file
 - Remove useless includes from phpstan config file
 
 ## [1.0.2] - 2021-09-16
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Replace code standards by `nekofar/coding-standard`
 
 ## [1.0.1] - 2021-09-16
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Update composer configs
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Move `brainbits/phpstan-rules` to the suggests
 - Move `ergebnis/phpstan-rules` to the suggests
@@ -309,7 +397,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.0] - 2021-09-16
 
-### Documentation
+### <!-- 05 -->Documentation
 
 - Add sample phpunit configuration
 - Add sample php code sniffer configuration
@@ -320,7 +408,7 @@ All notable changes to this project will be documented in this file.
 - Add the missing readme file
 - Update composer description
 
-### Miscellaneous Tasks
+### <!-- 08 -->Miscellaneous Tasks
 
 - Add composer configuration file
 - Add vendor and composer to gitignore
