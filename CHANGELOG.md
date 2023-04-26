@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.0] - 2023-04-26
+
+### <!-- 01 -->Features
+
+- Change `pestphp/pest` version to `^1.0 || ^2.0`
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.0 to 3.5.1 
+- Bump actions/checkout from 3.5.1 to 3.5.2 
+
 ## [2.1.6] - 2023-04-04
 
 ### <!-- 07 -->Continuous Integrations
