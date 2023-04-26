@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2023-04-26
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Change `php` version from `^8.0` to `>=8.1`
+- Bump phpunit/phpunit from ^9.5 to ^10.0
+
 ## [2.2.0] - 2023-04-26
 
 ### <!-- 01 -->Features
