@@ -43,6 +43,7 @@
         "icanhazstring/composer-unused": "Show unused composer dependencies by scanning your code",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
+        "laravel/pint": "Pint is built on top of PHP-CS-Fixer and makes it simple to ensure that your code style stays clean and consistent.",
         "nunomaduro/phpinsights": "Instant PHP quality checks from your console",
         "pestphp/pest-plugin-global-assertions": "The Pest Global Assertions plugin",
         "phing/phing": "Phing is a PHP project build system or build tool based on Apache Ant.",
