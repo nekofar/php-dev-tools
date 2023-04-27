@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.1] - 2023-04-27
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Bump nekofar/coding-standard from ^2.0 to ^3.0
+- Add `laravel/pint` to the suggests
+
 ## [3.0.0] - 2023-04-26
 
 ### <!-- 08 -->Miscellaneous Tasks
