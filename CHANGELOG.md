@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.0] - 2023-05-15
+
+### <!-- 01 -->Features
+
+- Change `phpunit` min version from `^10.0` to `10.1`
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump orhun/git-cliff-action from 2.0.5 to 2.0.6 
+- Change `open-pull-requests-limit` from 10 to 20
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update the `phpunit` configuration file
+
 ## [3.0.1] - 2023-04-27
 
 ### <!-- 08 -->Miscellaneous Tasks
