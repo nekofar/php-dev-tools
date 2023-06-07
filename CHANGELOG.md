@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.1] - 2023-06-07
+
+### <!-- 08 -->Miscellaneous Tasks
+
+- Update infection/infection requirement || ^0.27.0 
+- Add `php-stubs/generator` as require
+
 ## [3.1.0] - 2023-05-15
 
 ### <!-- 01 -->Features
