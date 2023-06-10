@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.2] - 2023-06-10
+
+### <!-- 02 -->Bug Fixes
+
+- Remove unused PHP linting packages
+- Move php-stubs/generator to suggest
+
 ## [3.1.1] - 2023-06-07
 
 ### <!-- 08 -->Miscellaneous Tasks
