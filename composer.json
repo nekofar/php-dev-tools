@@ -1,8 +1,8 @@
 {
     "name": "nekofar/dev-tools",
-    "type": "library",
     "description": "Some of useful development requirements for PHP projects.",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "Milad Nekofar",
@@ -18,7 +18,6 @@
         "infection/infection": "^0.26.6 || ^0.27.0",
         "nekofar/coding-standard": "^3.0",
         "pestphp/pest": "^1.0 || ^2.0",
-        "php-stubs/generator": "^0.8.3",
         "phpmd/phpmd": "^2.12",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.5",
@@ -38,16 +37,17 @@
         "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
         "fakerphp/faker": "Faker is a PHP library that generates fake data for you.",
         "humbug/box": "Fast, zero config application bundler with PHARs.",
-        "madewithlove/htaccess-cli": "CLI interface for the best htaccess tester in the world.",
         "icanhazstring/composer-unused": "Show unused composer dependencies by scanning your code",
         "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
         "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
         "laravel/pint": "Pint is built on top of PHP-CS-Fixer and makes it simple to ensure that your code style stays clean and consistent.",
+        "madewithlove/htaccess-cli": "CLI interface for the best htaccess tester in the world.",
         "nunomaduro/phpinsights": "Instant PHP quality checks from your console",
-        "php-parallel-lint/php-console-highlighter": "Highlight PHP code in terminal",
-        "php-parallel-lint/php-parallel-lint": "This tool check syntax of PHP files about 20x faster than serial check.",
         "pestphp/pest-plugin-global-assertions": "The Pest Global Assertions plugin",
         "phing/phing": "Phing is a PHP project build system or build tool based on Apache Ant.",
+        "php-parallel-lint/php-console-highlighter": "Highlight PHP code in terminal",
+        "php-parallel-lint/php-parallel-lint": "This tool check syntax of PHP files about 20x faster than serial check.",
+        "php-stubs/generator": "Generate stubs from any PHP code for IDE completion and static analysis.",
         "phpdocumentor/phpdocumentor": "Analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.",
         "phpspec/phpspec": "A php toolset to drive emergent design by specification.",
         "phpspec/prophecy": "Highly opinionated mocking framework for PHP",
@@ -60,24 +60,24 @@
         "thecodingmachine/phpstan-safe-rule": "A PHPStan rule to be used with the thecodingmachine/safe package",
         "thecodingmachine/phpstan-strict-rules": "A set of additional rules for PHPStan based on best practices followed at TheCodingMachine"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
-        "preferred-install": "dist",
-        "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "infection/extension-installer": true,
             "pestphp/pest-plugin": true,
             "phpstan/extension-installer": true
-        }
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "infection": "infection",
         "lint": "@scan",
