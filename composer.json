@@ -1,113 +1,119 @@
 {
-    "name": "nekofar/dev-tools",
-    "description": "Some of useful development requirements for PHP projects.",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Milad Nekofar",
-            "email": "milad@nekofar.com"
-        }
-    ],
-    "require": {
-        "php": ">=8.1",
-        "composer/installers": "^2.1",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2 || ^1.0.0",
-        "dominikb/composer-license-checker": "^2.4",
-        "friendsofphp/php-cs-fixer": "^3.8",
-        "infection/infection": "^0.26.6 || ^0.27.0",
-        "nekofar/coding-standard": "^3.0",
-        "pestphp/pest": "^1.0 || ^2.0",
-        "phpmd/phpmd": "^2.12",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan": "^1.5",
-        "phpunit/phpunit": "^10.1",
-        "psalm/plugin-phpunit": "^0.16.1 || ^0.17.0 || ^0.18.0",
-        "roave/security-advisories": "dev-latest",
-        "squizlabs/php_codesniffer": "^3.6",
-        "symfony/var-dumper": "^5.4.9 || ^6.1",
-        "thecodingmachine/safe": "^1.3 || ^2.0",
-        "vimeo/psalm": "^4.22 || ^5.0"
-    },
-    "suggest": {
-        "behat/behat": "Behat is a test framework for behavior-driven development.",
-        "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan.",
-        "codeception/codeception": "Codeception collects and shares best practices and solutions for testing PHP web applications. ",
-        "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
-        "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
-        "fakerphp/faker": "Faker is a PHP library that generates fake data for you.",
-        "humbug/box": "Fast, zero config application bundler with PHARs.",
-        "icanhazstring/composer-unused": "Show unused composer dependencies by scanning your code",
-        "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
-        "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
-        "laravel/pint": "Pint is built on top of PHP-CS-Fixer and makes it simple to ensure that your code style stays clean and consistent.",
-        "madewithlove/htaccess-cli": "CLI interface for the best htaccess tester in the world.",
-        "nunomaduro/phpinsights": "Instant PHP quality checks from your console",
-        "pestphp/pest-plugin-global-assertions": "The Pest Global Assertions plugin",
-        "phing/phing": "Phing is a PHP project build system or build tool based on Apache Ant.",
-        "php-parallel-lint/php-console-highlighter": "Highlight PHP code in terminal",
-        "php-parallel-lint/php-parallel-lint": "This tool check syntax of PHP files about 20x faster than serial check.",
-        "php-stubs/generator": "Generate stubs from any PHP code for IDE completion and static analysis.",
-        "phpdocumentor/phpdocumentor": "Analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.",
-        "phpspec/phpspec": "A php toolset to drive emergent design by specification.",
-        "phpspec/prophecy": "Highly opinionated mocking framework for PHP",
-        "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
-        "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
-        "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
-        "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
-        "rector/rector": "Instant Upgrades and Automated Refactoring of any PHP 5.3+ code",
-        "symplify/phpstan-rules": "Set of rules for PHPStan used by Symplify projects.",
-        "thecodingmachine/phpstan-safe-rule": "A PHPStan rule to be used with the thecodingmachine/safe package",
-        "thecodingmachine/phpstan-strict-rules": "A set of additional rules for PHPStan based on best practices followed at TheCodingMachine"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "infection/extension-installer": true,
-            "pestphp/pest-plugin": true,
-            "phpstan/extension-installer": true
-        },
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.x-dev"
-        }
-    },
-    "scripts": {
-        "infection": "infection",
-        "lint": "@scan",
-        "pest": "pest",
-        "phpcbf": "phpcbf",
-        "phpcs": "phpcs",
-        "phplint": "php-parallel-lint",
-        "phpmd": "phpmd src ansi phpmd.xml.dist",
-        "phpstan": "phpstan analyse --no-progress --ansi --memory-limit 256M",
-        "phpunit": "phpunit",
-        "psalm": "psalm --no-progress --stats --show-info=true --show-snippet",
-        "scan": [
-            "@phplint",
-            "@phpstan"
-        ],
-        "test": [
-            "@scan",
-            "@pest"
-        ]
-    },
-    "scripts-descriptions": {
-        "infection": "Runs Infection tests",
-        "pest": "Runs Pest tests",
-        "phpcbf": "Runs PHP_CodeSniffer fixes",
-        "phpcs": "Runs PHP_CodeSniffer tests",
-        "phpmd": "Runs PHP Mess Detector tests",
-        "phpstan": "Runs PHPStan tests",
-        "phpunit": "Runs PHPUnit tests",
-        "psalm": "Runs Psalm tests",
-        "scan": "Runs all scans!",
-        "test": "Runs all tests!"
+  "name": "nekofar/dev-tools",
+  "description": "Some of useful development requirements for PHP projects.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Milad Nekofar",
+      "email": "milad@nekofar.com"
     }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "composer/installers": "^2.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2 || ^1.0.0",
+    "dominikb/composer-license-checker": "^2.4",
+    "friendsofphp/php-cs-fixer": "^3.8",
+    "infection/infection": "^0.26.6 || ^0.27.0",
+    "nekofar/coding-standard": "^3.0",
+    "pestphp/pest": "^1.0 || ^2.0",
+    "phpmd/phpmd": "^2.12",
+    "phpstan/extension-installer": "^1.1",
+    "phpstan/phpstan": "^1.5",
+    "phpunit/phpunit": "^10.1",
+    "psalm/plugin-phpunit": "^0.16.1 || ^0.17.0 || ^0.18.0",
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.6",
+    "symfony/var-dumper": "^5.4.9 || ^6.1",
+    "thecodingmachine/safe": "^1.3 || ^2.0",
+    "vimeo/psalm": "^4.22 || ^5.0"
+  },
+  "suggest": {
+    "behat/behat": "Behat is a test framework for behavior-driven development.",
+    "brainbits/phpstan-rules": "Highly opinionated and strict rules for test cases for the PHPStan.",
+    "codeception/codeception": "Codeception collects and shares best practices and solutions for testing PHP web applications. ",
+    "ergebnis/composer-normalize": "Provides a composer plugin for normalizing composer.json.",
+    "ergebnis/phpstan-rules": "Provides additional rules for PHPStan.",
+    "fakerphp/faker": "Faker is a PHP library that generates fake data for you.",
+    "humbug/box": "Fast, zero config application bundler with PHARs.",
+    "icanhazstring/composer-unused": "Show unused composer dependencies by scanning your code",
+    "ikvasnica/phpstan-clean-test": "Highly opinionated and strict rules for test cases for the PHPStan.",
+    "korbeil/phpstan-generic-rules": "Generic rules extensions for PHPStan",
+    "laravel/pint": "Pint is built on top of PHP-CS-Fixer and makes it simple to ensure that your code style stays clean and consistent.",
+    "madewithlove/htaccess-cli": "CLI interface for the best htaccess tester in the world.",
+    "nunomaduro/phpinsights": "Instant PHP quality checks from your console",
+    "pestphp/pest-plugin-global-assertions": "The Pest Global Assertions plugin",
+    "phing/phing": "Phing is a PHP project build system or build tool based on Apache Ant.",
+    "php-parallel-lint/php-console-highlighter": "Highlight PHP code in terminal",
+    "php-parallel-lint/php-parallel-lint": "This tool check syntax of PHP files about 20x faster than serial check.",
+    "php-stubs/generator": "Generate stubs from any PHP code for IDE completion and static analysis.",
+    "phpdocumentor/phpdocumentor": "Analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.",
+    "phpspec/phpspec": "A php toolset to drive emergent design by specification.",
+    "phpspec/prophecy": "Highly opinionated mocking framework for PHP",
+    "phpstan/phpstan-beberlei-assert": "Rules for detect the type of object after the assertions validation.",
+    "phpstan/phpstan-deprecation-rules": "Rules for detecting usage of deprecateds",
+    "phpstan/phpstan-phpunit": "PHPStan PHPUnit extensions and rules",
+    "phpstan/phpstan-strict-rules": "Extra strict and opinionated rules for PHPStan",
+    "rector/rector": "Instant Upgrades and Automated Refactoring of any PHP 5.3+ code",
+    "symplify/phpstan-rules": "Set of rules for PHPStan used by Symplify projects.",
+    "thecodingmachine/phpstan-safe-rule": "A PHPStan rule to be used with the thecodingmachine/safe package",
+    "thecodingmachine/phpstan-strict-rules": "A set of additional rules for PHPStan based on best practices followed at TheCodingMachine"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "infection/extension-installer": true,
+      "pestphp/pest-plugin": true,
+      "phpstan/extension-installer": true
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "scripts": {
+    "infection": "infection",
+    "lint": "@scan",
+    "pest": "pest",
+    "phpcbf": "phpcbf",
+    "phpcs": "phpcs",
+    "phplint": "php-parallel-lint",
+    "phpmd": "phpmd src ansi phpmd.xml.dist",
+    "phpstan": "phpstan analyse --no-progress --ansi --memory-limit 256M",
+    "phpunit": "phpunit",
+    "psalm": "psalm --no-progress --stats --show-info=true --show-snippet",
+    "scan": [
+      "@phplint",
+      "@phpstan"
+    ],
+    "test": [
+      "@scan",
+      "@pest"
+    ]
+  },
+  "scripts-descriptions": {
+    "infection": "Runs Infection tests",
+    "pest": "Runs Pest tests",
+    "phpcbf": "Runs PHP_CodeSniffer fixes",
+    "phpcs": "Runs PHP_CodeSniffer tests",
+    "phpmd": "Runs PHP Mess Detector tests",
+    "phpstan": "Runs PHPStan tests",
+    "phpunit": "Runs PHPUnit tests",
+    "psalm": "Runs Psalm tests",
+    "scan": "Runs all scans!",
+    "test": "Runs all tests!"
+  },
+  "funding": [
+    {
+      "type": "custom",
+      "url": "https://ud.me/nekofar.crypto"
+    }
+  ]
 }
