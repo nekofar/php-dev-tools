@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.3] - 2023-07-01
+
+### <!-- 05 -->Documentation
+
+- Update crypto funding address over configs
+- Add funding to the composer configs
+- Add crypto donate badge to the project readme
+
+### <!-- 07 -->Continuous Integrations
+
+- Bump actions/checkout from 3.5.2 to 3.5.3 
+
 ## [3.1.2] - 2023-06-10
 
 ### <!-- 02 -->Bug Fixes
