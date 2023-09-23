@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.6] - 2023-09-23
+
+### Documentation
+
+- Add issue templates for bug report and feature request
+
 ## [3.1.5] - 2023-09-02
 
 ### Miscellaneous Tasks
