@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.1.7] - 2024-02-03
+
+### Documentation
+
+- Update badges over project readme file
+
 ## [3.1.6] - 2023-09-23
 
 ### Documentation
